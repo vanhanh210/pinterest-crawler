@@ -10,7 +10,7 @@ configs = PinterestConfig(search_keywords="random pic", # Search word
                           image_quality="orig", # image quality (default = "orig")
                           bookmarks="")         # next page data (default= "")
 
-PinterestScraper(configs).download_images() # download images directly (photos/atatürk, photos/web-scraping)
+PinterestScraper(configs).download_images() # download images directly (photos/random-pic, photos/web-scraping)
 
 print(PinterestScraper(configs).get_urls()) # get image links
 ```
