@@ -11,7 +11,7 @@ You can download as many images as you want about the searched words.
 ```python
 from src import PinterestScraper, PinterestConfig
 
-configs = PinterestConfig(search_keywords="Atatürk", # Search word
+configs = PinterestConfig(search_keywords="random pic", # Search word
                           file_lengths=200,     # total number of images to download (default = "100")
                           image_quality="orig", # image quality (default = "orig")
                           bookmarks="")         # next page data (default= "")
